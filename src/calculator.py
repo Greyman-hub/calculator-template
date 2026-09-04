@@ -3,13 +3,16 @@ Calculator Module - Basic arithmetic operations
 Students will extend this with more functions
 """
 
+
 def add(a, b):
     """Add two numbers together"""
     return a + b
 
+
 def subtract(a, b):
     """Subtract b from a"""
     return a - b
+
 
 def multiply(a, b):
     """Multiply two numbers with input validation and logging."""
@@ -20,6 +23,7 @@ def multiply(a, b):
     result = a * b
     print(f"Result: {result}")
     return result
+
 
 def divide(a, b):
     """Divide a by b with enhanced error handling."""
@@ -32,6 +36,7 @@ def divide(a, b):
     result = a / b
     print(f"Result: {result}")
     return result
+
 
 # TODO: Students will add multiply, divide, power, sqrt functions
 
